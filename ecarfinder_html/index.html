@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ECarFinder</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<script>getLocation()</script>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#whoiam">Who I am</a></li>
+					<li><a href="#offer">Offer</a></li>
+					<li><a href="#formula">Formula</a></li>
+					<li><a href="#articles">Articles</a></li>
+					<li><a href="#map">Map</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="whoiam" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. My name is <strong>ECar-Finder</strong>.</h1>
+							</header>
+							<p>This is my website, a free help to find an ecar which fits you best.</p>
+							<a href="#offer" class="button large scrolly">Learn about what I offer.</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Offer -->
+			<article id="offer" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Thats's all the stuff I offer.</h2>
+						<p>From asking you about your needs to giving you an overview about the charging spots around yur place.</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured"><img src="images/offer_questionnaire.png" alt="" /></span>
+								<h3>Questionnaire</h3>
+								<p>I would like to know a few infos about your current driving habits.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured"><img src="images/offer_news.svg" alt="" /></span>
+								<h3>News about electric cars</h3>
+								<p>I found some news about electric cars which are quite interesting.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured"><img src="images/offer_map.png" alt="" /></span>
+								<h3>Map of charging spots</h3>
+								<p>Here I offer you a map of all the charging spots for electric cars.</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>For any further questions do not hesitate to contact me?</p>
+						<a href="#formula" class="button large scrolly">Have a look at the questionnaire.</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Questionnaire -->
+			<article id="formula" class="wrapper style3">
+				<div class="container">
+					<h2>Questions about your driving situation.</h1>
+						<form id="fragebogen">
+							<label for="drivDist">Average driving distance per day</label> 
+							<select name="drivDistance">
+									<option value="" selected disabled hidden>Choose here ...</option>
+									<option value="low">0 - 25 km</option>
+									<option value="medium">25 - 50 km</option>
+									<option value="high">50 - 100 km</option>
+									<option value="super">100+ km</option>
+							</select>
+							<label for="avgPpl">Average people per drive</label>  
+							<select name="avgPeople">
+									<option value="" selected disabled hidden>Choose here ...</option>
+									<option value="low">1 - 2</option>
+									<option value="medium">2 - 4</option>
+									<option value="high">4+</option>
+							</select>
+							<label for="livPlc">Charging opportunities at your living place</label>  
+							<select name="chargingOpp">
+									<option value="" selected disabled hidden>Choose here ...</option>
+									<option value="yes">Yes</option>
+									<option value="no">No</option>
+							</select>
+							<label for="zuname">Current car brand</label>  
+							<select name="carBrands">
+									<option value="" selected disabled hidden>Choose here ...</option>
+									<option value="Opel">Opel</option>
+									<option value="Volvo">Volvo</option>
+									<option value="Mercedes">Mercedes</option>
+									<option value="BMW">BMW</option>
+							</select>
+							<label for="zuname">Current car model</label>  
+							<select name="carModels">
+									<option value="" selected disabled hidden>Choose here ...</option>
+									<option value="low">Astra</option>
+									<option value="medium">Golf</option>
+									<option value="high">XC60</option>
+									<option value="super">126</option>
+							</select>
+						
+							<button type="reset">Eingaben zurücksetzen</button>
+							<button type="submit">Eingaben absenden</button>
+						</form>
+				</div>
+			</article>
+	
+		<!-- Articles -->
+			<article id="articles" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some stuff I made recently.</h2>
+						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#">Magna feugiat</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="#">Veroeros primis</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="#">Lorem ipsum</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Tempus dolore</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Feugiat aliquam</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Sed amet ornare</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Map -->
+			<article class="wrapper style5" onload="getLocation()">
+				<div class="chargeMap" id="mapDiv">
+					<iframe src="https://map.openchargemap.io/?mode=embedded" width='100%' height='800px'></iframe>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Have me make stuff for you.</h2>
+						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/geolocation.js"></script>
+	</body>
+</html>
